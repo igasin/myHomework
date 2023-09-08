@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,7 +20,7 @@ h2 {
   font-weight: 400;
   margin-bottom: 54px;
 }
-   
+
 .separator {
   border: 1px solid #EC7979;
   width: 170px;
@@ -43,7 +43,7 @@ h3 {
   text-transform: capitalize;
   margin: 39px auto 41px auto;
 }
-    
+
 .group p {
   text-align: center;
   font-size: 18px;
@@ -62,7 +62,7 @@ h3 {
   align-items: center;
   margin: auto;
 }
-    
+
 .inlineblock {
   display: inline-block;
   width: 370px;
@@ -70,4 +70,4 @@ h3 {
 
 .group {
   text-align: center;
-}    
+}

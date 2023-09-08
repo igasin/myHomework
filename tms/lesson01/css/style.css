@@ -1,0 +1,29 @@
+span{
+  color: coral;
+}
+
+.red-text{
+  color: red;
+}
+
+div{
+  color: blueviolet;
+}
+
+.img-page{
+  width: 200px;
+  height: 200px;
+}
+
+#text{
+  color: green;
+}
+
+.list__el.list__el--red{
+  color: red;
+}
+
+.list__el{
+  color: black;
+}
+
