@@ -8,9 +8,8 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.wrapper {
-  max-width: 1170px;
-  padding: 0 15px;
+.section {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
