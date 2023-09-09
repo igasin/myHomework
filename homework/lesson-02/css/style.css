@@ -44,30 +44,31 @@ h3 {
   margin: 39px auto 41px auto;
 }
 
-.group p {
+.aside p {
+  color: #000000;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 90px;
 }
 
-.icon {
+.aside-card__icon {
   width: 92px;
   height: 92px;
   text-align: center;
   border: 1px solid #EC7979;
   border-radius: 50%;
-  display: -webkit-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
 
-.inlineblock {
+.aside-card {
   display: inline-block;
   width: 370px;
 }
 
-.group {
+.aside {
   text-align: center;
 }
