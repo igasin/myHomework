@@ -16,18 +16,8 @@
     padding: 30px 0;
 }
 
-.tabs-bar {
-    
-}
-
-.tabs-bar-nav {
-    
-}
-
 .tabs-bar-nav__item {
     display: inline-block;
-    text-align: center;
-
 }
 
 .tabs-bar-nav__item--active {
@@ -36,17 +26,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0 0;
     border: 1px solid #C6CBCD;
-}
-
-.tabs-bar-nav__item--active a {
-    border-radius: 5px 5px 0px 0px;
-    color: #333;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
 }
 
 .tabs-bar-nav__item--nav {
