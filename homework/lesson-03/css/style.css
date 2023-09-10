@@ -7,52 +7,107 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Open Sans;
+    color: #000000;
 }
 
 .section {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .section-tabs {
+    
+}
+
+.section-tabs-nav {
+    
+}
+
+.section-tabs__item {
     display: inline-block;
+    text-align: center;
+
+}
+
+.section-tabs__item--active {
+    width: 203px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
     border: 1px solid #C6CBCD;
 }
 
-.section-tabs__item a {
+.section-tabs__item--active a {
     border-radius: 5px 5px 0px 0px;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
 
+.section-tabs__item--nav {
+    width: 203px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-tabs__item--nav a {
+    border-radius: 5px 5px 0px 0px;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.section-content {
+    border: 1px solid #C6CBCD;
+    height: 502px;
 }
 
 .section-content__image {
     float: right;
 }
 
-h3 {
+.section-content__title h3 {
     width: 570px;
-    color: #000;
+    padding: 30px 0;
+    margin: 22px 0 38px 100px;
+}
+
+h3 {
     font-size: 30px;
     font-weight: 700;
-    padding: 50px 0;
+}
+
+.section-content__title p {
+    max-width: 570px;
+    max-height: 210px;
+    margin: 0 0 20px 100px;
 }
 
 p {
-    width: 570px;
-    color: #000;
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
-    padding: 30px 0;
 }
 
-.section-content___button {
-    padding-top: 27px;
-    width: 270px;
-    height: 58px;
+.section-content___button a {
+    display: block;
     background-color: #EC7979;
     text-align: center;
+    width: 270px;
+    height: 58px;
+    color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
-    
+    line-height: 58px;
+    margin-left: 100px;
+
 }
