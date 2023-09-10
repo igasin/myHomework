@@ -1,0 +1,9 @@
+.frame {
+    width: 560px;
+    text-align: center;
+    margin: 150px auto;
+    font-size: 56px;
+    padding: 1em;
+    background-color: blueviolet;
+    border: 40px double #fff;
+}
