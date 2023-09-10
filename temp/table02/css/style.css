@@ -1,0 +1,22 @@
+ul {
+list-style: none;
+font-size: 28px;
+width: 520px;
+margin: 0;
+padding: 0;
+}
+
+li {
+    background-color: #b18979;
+    border: 2px solid #fff;
+    padding: 1rem;
+    color: #fff;
+}
+
+li:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+li:last-child {
+    border-radius: 0 0 20px 20px;
+}
