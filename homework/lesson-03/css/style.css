@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
 
 * {
-    max-width: 1200;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Open Sans; 
-    color: #000000;
+    font-family: Open Sans, serif, sans-serif;
 }
 
-.tabs {
+.tabs-wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px 0;
 }
 
-.tabs-bar-nav__item {
-    display: inline-block;
+.tabs-bar-nav {
+    display: flex;
+    margin-bottom: -1px;
 }
 
 .tabs-bar-nav__item--active {
@@ -28,10 +26,11 @@
     align-items: center;
     border-radius: 5px 5px 0 0;
     border: 1px solid #C6CBCD;
+    border-bottom: 1px solid white;
 }
 
-.tabs-bar-nav__item--nav {
-    width: 203px;
+.tabs-bar-nav__item:not(:first-child) {
+    width: 184px;
     height: 40px;
     display: flex;
     justify-content: center;
@@ -39,7 +38,6 @@
 }
 
 .tabs-bar-nav__item--nav a {
-    border-radius: 5px 5px 0px 0px;
     color: #333;
     text-align: center;
     font-size: 14px;
@@ -48,32 +46,44 @@
 }
 
 .tabs-content {
+    display: flex;
     border: 1px solid #C6CBCD;
-    height: 502px;
+    /* height: 502px; */
+}
+
+.tabs-content__title {
+    margin-left: auto;
+    width: 570px;
 }
 
 .tabs-content__image {
-    float: right;
+    width: 470px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -29.234px 0px / 189.036% 100% no-repeat;
+    margin-left: auto;
 }
 
 .tabs-content__title h3 {
-    width: 570px;
-    padding: 30px 0;
-    margin: 22px 0 38px 100px;
+    display: flex;
+    height: 124px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h3 {
+.tabs-content__title h3 {
     font-size: 30px;
     font-weight: 700;
 }
 
 .tabs-content__title p {
-    max-width: 570px;
     max-height: 210px;
-    margin: 0 0 20px 100px;
+    margin-top: 27px;
+
+
 }
 
-p {
+.tabs-content__title p {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
@@ -89,5 +99,6 @@ p {
     font-size: 18px;
     font-weight: 600;
     line-height: 58px;
-    margin-left: 100px;
+    margin-top: 27px;
+
 }

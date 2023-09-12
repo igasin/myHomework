@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
+
+
+
+  /*  tabs */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Open Sans, Raleway, serif, sans-serif;
+}
+
+.tabs-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tabs-bar-nav {
+    display: flex;
+    margin-bottom: -1px;
+}
+
+.tabs-bar-nav__item--active {
+    width: 203px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #C6CBCD;
+    border-bottom: 1px solid white;
+}
+
+.tabs-bar-nav__item:not(:first-child) {
+    width: 184px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-bar-nav__item--nav a {
+    font-family: Open Sans;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.tabs-content {
+    display: flex;
+    border: 1px solid #C6CBCD;
+    /* height: 502px; */
+}
+
+.tabs-content__title {
+    margin-left: auto;
+    width: 570px;
+}
+
+.tabs-content__image {
+    width: 470px;
+    height: 500px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -29.234px 0px / 189.036% 100% no-repeat;
+    margin-left: auto;
+}
+
+.tabs-content__title h3 {
+    display: flex;
+    height: 124px;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .tabs-content__title h3 {
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+} */
+
+.tabs-content__title p {
+    max-height: 210px;
+    margin-top: 27px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+/* .tabs-content__title p {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+} */
+
+.tabs-content___button a {
+    font-family: Open Sans;
+    display: block;
+    background-color: #EC7979;
+    text-align: center;
+    width: 270px;
+    height: 58px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 58px;
+    margin-top: 27px;
+
+}
+
+
+/* awesome */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section_awesome {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section_awesome h2 {
+    font-family: Raleway;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 54px;
+    /* 104px от верхней секции */
+    margin-top: 104px;
+}
+
+.separator {
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 0px auto 40px auto;
+}
+
+.section_awesome p {
+    font-family: Raleway;
+    color: #86878B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px auto 110px auto;
+}
+
+.aside h3 {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 39px auto 41px auto;
+}
+
+.aside p {
+    font-family: Raleway;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+.aside-card__icon {
+    width: 92px;
+    height: 92px;
+    text-align: center;
+    border: 1px solid #EC7979;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.aside-card {
+    width: 370px;
+    
+}
+
+.aside-card:nth-child(2) {
+    margin: 0 30px;
+}
+
+.aside {
+    display: flex;
+    text-align: center;
+}
