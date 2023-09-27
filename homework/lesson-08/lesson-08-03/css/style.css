@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Open Sans, Raleway, serif, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 50px auto;
+}
+
+span {
+    color: #424242;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.title {
+    margin: 50px 0;
+}
+.city, .post-service select {
+    width: 520px;
+    height: 50px;
+}
+input, option, select {
+    outline: none;
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 83px;
+    border: 1px solid #BDBDBD;
+    padding: 17px 24px 16px 24px;
+}
+
+.adress {
+    display: flex;
+}
+.street {
+    width: 254px;
+}
+.home, 
+.kv, 
+.index{
+    width: 130px;
+    margin-left: 16px;
+}
+.comment {
+    width: 692px;
+    height: 50px;
+}
+.city input, 
+.comment input, 
+.street input, 
+.home input, 
+.kv input, 
+.index input {
+    width: 100%;
+}
+.city,
+.post-service, 
+.adress {
+    margin-bottom: 24px;
+}
