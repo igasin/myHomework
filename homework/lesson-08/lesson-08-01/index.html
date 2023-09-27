@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-08-01</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="#" name="new-form" id="form" method="post" class="my-form">
+            <div class="title">
+                <span>Данные получателя</span>
+            </div>
+            <div class="contact">
+                <input placeholder="Фамилия" type="text" name="fam" id="">
+                <input placeholder="Имя" type="text" name="name" id="">
+                <input placeholder="Отчество" type="text" name="otch" id="">
+            </div>
+            <div class="tel">
+                <input placeholder="Номер телефона" type="tel" name="tel" id="tel">
+                <label for="tel">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</label>
+            </div>
+            <div class="email">
+                <input placeholder="E-mail" type="email" name="email" id="email">
+                <label for="email">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" class="custom-checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">Подписаться на рассылку новинок и акций</label>
+            </div>
+            <div class="title">
+                <span>Способ оплаты</span>
+            </div>
+            <div class="radio">
+                <input type="radio" class="custom-radio" name="money" id="cash">
+                <label for="cash">Оплата при получении наличными или картой</label>
+            </div>
+            <div class="radio">
+                <input type="radio" class="custom-radio" name="money" id="card" checked>
+                <label for="card">Оплата банковской картой онлайн</label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
