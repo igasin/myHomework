@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Open Sans, Raleway, serif, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 12px 0 15px 17px;
+    margin: 0 auto;
+}
+
+.reiew {
+    
+}
+.review-form {
+    margin: 25px 0 25px 0;
+}
+.title {
+    margin: 25px 0 25px 0;
+}
+span {
+    color: #371030;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.72px;
+    margin: 25px 0;
+}
+textarea {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.64px;
+    opacity: 0.5;
+    padding: 18px 25px;
+}
+input {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.64px;
+    opacity: 0.5;
+    padding: 6px 25px 5px 25px;
+}
+input, textarea {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #F9F0EE;
+}
+button {
+    width: 250px;
+    height: 63px;
+    border: none;
+    border-radius: 100px;
+    background: #FFB0BA;
+    box-shadow: 3px 3px 0px 3px #DE8E98;
+}
+.review-form {
+
+}
+textarea {
+    resize: none;
+    width: 100%;
+    min-height: 188px;
+    background-color: #F9F0EE;
+}
+.contact input {
+    width: 100%;
+    
+}
+.text-pole {
+    
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+    margin: 30px 0 30px 0;
+}
+
+.submit {
+    display: flex;
+}
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.checkbox label {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+.checkbox input {
+    margin: 0 22px 0 37px;
+}
