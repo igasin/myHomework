@@ -165,6 +165,9 @@
     background: #FFF;
 }
 
+.features-content-card-name__title {
+    padding: 29px 50px 73px 50px;
+}
 
 .features-content-card__input input::placeholder {
     color: #BDBDBD;
@@ -209,7 +212,7 @@
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 29px 0 73px 0;
+    /* padding: 29px 0 73px 0; */
 }
 .features-content-card-name .colortext {
     color: #EC7979;
@@ -340,11 +343,12 @@
     display: flex;
     flex-direction: column;
     align-items: first baseline;
+    max-width: 470px;
     margin: 0 30px 0 100px;
 }
 
 .tabs-content__image {
-    max-width: 470px;
+    max-width: 570px;
     object-fit: cover;
     /* width: calc((100% - 30px) / 2); */
 }
