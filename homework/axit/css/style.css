@@ -946,3 +946,12 @@
     transform: scale(130%);
     transform: skew(10deg, 10deg);
 }
+
+
+/* adaptable for different screen resolutions */
+
+@media (max-width: 1270px) {
+    .logo {
+        margin-left: 0;
+    }
+}
