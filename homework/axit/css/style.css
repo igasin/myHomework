@@ -977,22 +977,28 @@
     .logo {
         margin-left: 100px;
     }
+    .logo-card {
+        padding: 0;
+    }
     .logo-card_img {
         width: 115px;
     }
     .features-content-card-axit h1 {
         font-size: 36px;
+        padding: 37px 0 41px 0;
     }
     .features-content-card-name h4 {
         font-size: 18px;
     }
+    .features-content-card-name__title {
+        padding-bottom: 45px;
+    }
     .features-content-card-axit p {
         font-size: 14px;
+        padding: 31px 0;
     }
     .features-content {
-        /* margin: 0 0 0 100px; */
-        padding-left: 100px;
-        padding-top: 212px;
+        padding: 212px 0 106px 100px;
     }
     .features-content-card-axit {
         max-width: 454px;
@@ -1014,6 +1020,21 @@
     }
     .social-media-title h4 {
         padding: 12px 0 23px 0;
+    }
+    .tabs-content-title h3 {
+        font-size: 24px;
+        padding: 28px 0 66px 0;
+    }
+    .tabs-content-download {
+        margin-bottom: 50px;
+    }
+    .awesome h2 {
+        font-size: 24px;
+        margin-top: 96px;
+        padding-bottom: 38px;
+    }
+    .awesome p {
+        margin: 32px 0 65px 0;
     }
 }
 @media (max-width: 975px) {
